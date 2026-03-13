@@ -1,4 +1,4 @@
-# ============================================
+﻿# ============================================
 # REUSABLE WORKFLOW: Test
 # Pode ser chamado por outros workflows
 # ============================================
@@ -11,7 +11,6 @@ name: 🔄 Reusable Test
 # ============================================
 on:
   workflow_call:
-    # Parâmetros que quem chama pode passar
     inputs:
       node-version:
         description: 'Versão do Node.js'
